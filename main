@@ -1,0 +1,157 @@
+// JavaScript Document
+
+// A# Identifier V1.1 by Codey Sivley 2013
+// This code is open-source, feel free to edit or alter as you see fit.
+//If you like it feel free to shoot me an email at cjsivley@gmail.com.
+
+//script start
+var identify = prompt("Enter A# here", "Example: a1234").toLowerCase();
+        //prompt asks user for a#
+        
+        if (identify[0] != "a") {
+            //if user forgot to type "a", that's fixed here
+            var identify = "a" + identify;
+        }
+        else {
+            var identify = identify;
+        };
+        
+    switch (identify) {
+        //switch takes the corrected variable "identify" and returns the device name based on the input
+        case 'a1428':
+            document.write("Apple iPhone 5");
+            break;
+        case 'a1429':
+            document.write("Apple iPhone 5");
+            break;
+        case 'a1387':
+            document.write("Apple iPhone 4S");
+            break;
+        case 'a1349':
+            document.write("Apple iPhone 4 Verizon");
+            break;
+        case 'a1332':
+            document.write("Apple iPhone 4 AT&T");
+            break;
+        case 'a1303':
+            document.write("Apple iPhone 3GS");
+            break;
+        case 'a1241':
+            document.write("Apple iPhone 3G");
+            break;
+        // ---------------End iPhone, Begin iPods--------------------------
+        case 'a1421':
+            document.write("iPod Touch 5th Gen");
+            break;
+        case 'a1367':
+            document.write("iPod Touch 4th Gen");
+            break;
+        case 'a1318':
+            document.write("iPod Touch 3rd Gen 32/64 GB");
+            break;
+        case 'a1288':
+            document.write("iPod Touch 2nd Gen/3rd Gen 8 GB");
+            break;
+        case 'a1213':
+            document.write("iPod Touch Original");
+            break;
+        case 'a1373':
+            document.write("iPod Shuffle 4th Gen");
+            break;
+        case 'a1271':
+            document.write("iPod Shuffle 3rd Gen");
+            break;
+        case 'a1204':
+            document.write("iPod Shuffle 2nd Gen");
+            break;
+        case 'a1112':
+            document.write("iPod Shuffle Original");
+            break;
+        case 'a1446':
+            document.write("iPod Nano 7th Gen");
+            break;
+        case 'a1366':
+            document.write("iPod Nano 6th Gen");
+            break;
+        case 'a1320':
+            document.write("iPod Nano 5th Gen");
+            break;
+        case 'a1285':
+            document.write("iPod Nano 4th Gen");
+            break;
+        case 'a1236':
+            document.write("iPod Nano 3rd Gen");
+            break;
+        case 'a1199':
+            document.write("iPod Nano 2nd Gen");
+            break;
+        case 'a1137':
+            document.write("iPod Nano 1st Gen");
+            break;
+        case 'a1051':
+            document.write("iPod Mini 1st/2nd Gen");
+            break;
+        case 'a1238':
+            document.write("iPod Classic 6/7th Gen");
+            break;
+        case 'a1136':
+            document.write("iPod 5th Gen Video/Classic");
+            break;
+        case 'a1099':
+            document.write("iPod Photo");
+            break;
+        case 'a1059':
+            document.write("iPod 4th Gen");
+            break;
+        case 'a1040':
+            document.write("iPod 3rd Gen");
+            break;
+        case 'a1019':
+            document.write("iPod 2nd Gen");
+            break;
+        //-----------------------End iPods, Begin iPads---------------------------
+        case 'a1455':
+            document.write("iPad Mini Verizon/Sprint");
+            break;
+        case 'a1454':
+            document.write("iPad Mini AT&T");
+            break;
+        case 'a1432':
+            document.write("iPad Mini Wi-Fi");
+            break;
+        case 'a1460':
+            document.write("iPad 4th Gen Verizon/Sprint");
+            break;
+        case 'a1459':
+            document.write("iPad 4th Gen AT&T");
+            break;
+        case 'a1458':
+            document.write("iPad 4th Gen Wi-Fi");
+            break;
+        case 'a1403':
+            document.write("iPad 3rd Gen Verizon");
+            break;
+        case 'a1430':
+            document.write("iPad 3rd Gen AT&T");
+            break;
+        case 'a1416':
+            document.write("iPad 3rd Gen Wi-Fi");
+            break;
+        case 'a1395':
+            document.write("iPad 2 Wi-Fi");
+            break;
+        case 'a1397':
+            document.write("iPad 2 Verizon");
+            break;
+        case 'a1396':
+            document.write("iPad 2 AT&T");
+            break;
+        case 'a1337':
+            document.write("iPad 1st Gen Wi-Fi/3G");
+            break;
+        case 'a1219':
+            document.write("iPad 1st Gen Wi-Fi");
+            break;
+        default:
+            document.write("Device Unknown. Press F5 to try again.");
+    };
